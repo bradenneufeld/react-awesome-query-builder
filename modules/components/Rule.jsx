@@ -207,9 +207,6 @@ class Rule extends PureComponent {
 
       const del = (
         <div key="rule-header" className="rule--header">
-          {!immutableGroupsMode && <Btn 
-            type="delRule" onClick={this.removeSelf} label={deleteLabel} config={config}
-          />}
         </div>
       );
 
